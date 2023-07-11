@@ -169,6 +169,23 @@
     text-align: center;
 }
 
+/* Flower Text */
+
+.flower-text {
+    height: 5vh;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20% ;
+    margin-bottom: 5rem;
+    
+}
+
+.flower-text p {
+    text-decoration: underline;
+}
+
 /* Hot deal */
 
 .hot-deal{
@@ -200,6 +217,8 @@
 
 .inner-hot-deal-left button {
     padding: 8px 14px;
+    background-color: #E55473;
+    color: #fff;
 }
 
 .inner-hot-deal-right{
@@ -230,12 +249,20 @@
     text-align: center;
 }
 
+
+
+/* Instagram Gellary */
+
 .instagram-gellary {
     height: 60vh;
     width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.instagram h1 {
+    margin-bottom: 1rem;
 }
 
 .inner-instagram-gellary {
@@ -300,4 +327,29 @@
     border-radius: 8px;
     background-color: #E55473;
     color: #fff;
+}
+
+/* Footer */
+
+footer {
+    height: 40vh;
+    width: auto;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.inner-footer {
+    height: 55%;
+    width: 45%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
 }
