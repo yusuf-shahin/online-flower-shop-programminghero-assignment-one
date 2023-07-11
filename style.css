@@ -131,6 +131,24 @@
     align-items: flex-end;
 }
 
+/* Flower Text */
+
+.flower-text {
+    height: 5vh;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20% ;
+    margin-bottom: 5rem;
+    
+}
+
+.flower-text p {
+    text-decoration: underline;
+}
+
+
 /* Service */
 
 .service {
@@ -169,22 +187,6 @@
     text-align: center;
 }
 
-/* Flower Text */
-
-.flower-text {
-    height: 5vh;
-    width: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20% ;
-    margin-bottom: 5rem;
-    
-}
-
-.flower-text p {
-    text-decoration: underline;
-}
 
 /* Hot deal */
 
