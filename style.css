@@ -125,6 +125,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 3rem;
 }
 
 .inner-service {
@@ -152,4 +153,81 @@
     height: 50%;
     width: 28%;
     text-align: center;
+}
+
+/* Hot deal */
+
+.hot-deal{
+    background-color: #E554730D;
+    height: 60vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-hot-deal{
+    height: 90%;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-hot-deal-left{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around; 
+
+}
+
+.inner-hot-deal-right{
+    height: 65%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-hot-deal-right img {
+    width: 42%;
+}
+
+/* Instagram */
+
+.instagram {
+    height: 40vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.inner-instagram{
+    height: 60%;
+    width: 40%;
+    text-align: center;
+}
+
+.instagram-gellary {
+    height: 60vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-instagram-gellary {
+    height: 70%;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    column-gap: 12px;
+}
+
+.instagram-photo {
+    width: 22%;
 }
