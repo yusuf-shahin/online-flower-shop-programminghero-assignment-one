@@ -6,6 +6,8 @@
 
 }
 
+/* Banner - Start */
+
 .banner {
     height: 75vh ;
     background: rgba(229, 84, 115, 0.10);
@@ -29,12 +31,24 @@
 
 .banner-left-inner h1 {
     color: #272727;
-    font-size: 3rem;
+    font-size: 2.8rem;
     font-weight: bolder;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
 }
+
+.banner-left-inner p {
+    margin-bottom: 1.5rem;
+}
+
+
 
 .btn-1 {
     display: block;
+    padding: .5rem 1.5rem;
+    background-color: #E55473;
+    color: #fff;
+    font-weight: bold;
 }
 
 .banner-right {
@@ -50,12 +64,10 @@
     width: 55%;
 }
 
-/* .banner-right-image {
-    height: 50%;
-    width: 60%;
-} */
 
 /* Main start */
+
+/* Feature Section */
 
 .featured-heading{
     height: 20vh;
@@ -71,8 +83,10 @@
 }
 
 .inner-featured-heading h1 {
-    margin-bottom: 5px;
-    letter-spacing: 1px;
+    margin-bottom: 9px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+
 }
 
 /* Feature Image */
@@ -184,6 +198,10 @@
 
 }
 
+.inner-hot-deal-left button {
+    padding: 8px 14px;
+}
+
 .inner-hot-deal-right{
     height: 65%;
     width: 50%;
@@ -230,4 +248,56 @@
 
 .instagram-photo {
     width: 22%;
+}
+
+/* Form-Side */
+
+.form{
+    height: 55vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-form {
+    height: 80%;
+    width: 78%;
+    background-image: url("Flower/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    justify-content: center;
+    align-content: center;
+}
+
+.inner-form-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-form-subscrive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8px;
+
+}
+
+.inner-form-subscrive input {
+    padding: 8px 66px ;
+    border-radius: 8px;
+    border: 1px solid;
+}
+
+.inner-form-subscrive button {
+    padding: 8px 3px 8px;
+    border-radius: 8px;
+    background-color: #E55473;
+    color: #fff;
 }
